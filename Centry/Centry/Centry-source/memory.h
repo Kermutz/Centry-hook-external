@@ -25,4 +25,12 @@ public:
 
 	};
 
+	template <typename T>
+	bool Write(uintptr_t adress, T value)
+	{
+
+		return WriteProcessMemory(this->process, (LPVOID)adress, &value, sizeof(T), NULL);
+
+	}
+
 };
