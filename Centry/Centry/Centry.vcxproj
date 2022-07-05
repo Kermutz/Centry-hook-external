@@ -132,6 +132,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Centry-source\main.cpp" />
+    <ClCompile Include="Centry-source\memory.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Centry-source\memory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
