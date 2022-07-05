@@ -1,4 +1,11 @@
 ﻿  main.cpp
+D:\Kermutz-repos\Centry-hook-external\Centry\Centry\Centry-source\memory.h(24,3): error C3861: 'ReadProcessmemory': identifier not found
+D:\Kermutz-repos\Centry-hook-external\Centry\Centry\Centry-source\memory.h(24,3): message : 'ReadProcessmemory': function was not declared in the template definition context and can be found only via argument-dependent lookup in the instantiation context
+D:\Kermutz-repos\Centry-hook-external\Centry\Centry\Centry-source\main.cpp(25): message : see reference to function template instantiation 'T Memory::Read<uintptr_t>(uintptr_t)' being compiled
+          with
+          [
+              T=uintptr_t
+          ]
   memory.cpp
 D:\Kermutz-repos\Centry-hook-external\Centry\Centry\Centry-source\memory.cpp(13,6): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 2 from 'WCHAR [260]' to 'const char *'
 D:\Kermutz-repos\Centry-hook-external\Centry\Centry\Centry-source\memory.cpp(13,33): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast

@@ -10,6 +10,7 @@ private:
 
 public:
 	Memory(const char* processName);
+	Memory(const char** processName);
 	~Memory();
 
 	DWORD GetProcessId();
@@ -21,7 +22,7 @@ public:
 	T Read(uintptr_t adress)
 	{
 		T value;
-		ReadProcessmemory(this->process, (LPCVOID)adress, &value, sizeof(T), NULL);
+		ReadProcessMemory(this->process, (LPCVOID)adress, &value, sizeof(T), NULL);
 
 	};
 
