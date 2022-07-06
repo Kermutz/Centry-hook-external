@@ -2,6 +2,6 @@
 D:\Kermutz-repos\Centry-hook-external\Centry\Centry\Centry-source\memory.cpp(13,6): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 2 from 'WCHAR [260]' to 'const char *'
 D:\Kermutz-repos\Centry-hook-external\Centry\Centry\Centry-source\memory.cpp(13,33): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(100,13): message : see declaration of 'strcmp'
-D:\Kermutz-repos\Centry-hook-external\Centry\Centry\Centry-source\memory.cpp(57,6): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 2 from 'WCHAR [256]' to 'const char *'
-D:\Kermutz-repos\Centry-hook-external\Centry\Centry\Centry-source\memory.cpp(57,32): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+D:\Kermutz-repos\Centry-hook-external\Centry\Centry\Centry-source\memory.cpp(55,6): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 2 from 'WCHAR [256]' to 'const char *'
+D:\Kermutz-repos\Centry-hook-external\Centry\Centry\Centry-source\memory.cpp(55,32): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
 C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\string.h(100,13): message : see declaration of 'strcmp'
